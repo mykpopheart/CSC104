@@ -3,34 +3,35 @@ body{
 	background: -moz-linear-gradient(right, #FF5733, #C70039, #900C3F);
 	background: -o-linear-gradient(right, #FF5733, #C70039, #900C3F);
 	background: linear-gradient(to right, #FF5733, #C70039, #900C3F);
-color: #FF5733;
+color: #FF5733; /* This changes the background color */
+
 
 }
 
-h1{
+h1{ /* This changes the first heading style */
 	color:black;
 	text-shadow:0 0 2px grey;
 	font-family: Verdana;
 }
 
-h2{
+h2{ /* This changes the second heading style */
 	color:black;
 	text-shadow:0 0 2px grey;
 	font-family: Verdana;
 }
 
-h3{
+h3{ /* This changes the third heading style */
 	color:black;
 	text-shadow:0 0 2px grey;
 	font-family: Verdana;
 }
 
-p{
+p{ /* This changes the paragraph style */
 	color: #00008B;
 	text-shadow:0 0 1px blue;
 	font-family: Georgia;
 }
 
-a:visited{
+a:visited{ /* This changes the visited style */
 	color: white;
 }
