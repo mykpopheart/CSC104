@@ -1,1 +1,3 @@
-# CSC104
+#CSC104
+The background I chose for the style.css is a gradient shade of orange, red and a red wine color.  I copied the original CSS properties and changed the CSS style colors.  For the 1st heading, the color is Black with a 2px grey text shadow and the font family is Verdana.  This is the same for the other 2 heading as well.  For the paragraph's I changed the color to blue and the font family to Georgia.  The text was too bold so I changed the px from 2px to 1px which looks better.  I changed the visited to the color white, although I didn't notice a change.
+For the My First Page.html I added 3 paragraphs with 3 different kind of headings.  I tried to get all 3 headings the same but when I changed the other two to "h1" they dissappeared.  I am not sure why.
