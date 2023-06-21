@@ -1,35 +1,36 @@
 body{
-	background: -webkit-linear-gradient(right, #00FF00, #000000, #00aa00);
-	background: -moz-linear-gradient(right, #00FF00, #000000, #00aa00);
-	background: -o-linear-gradient(right, #00FF00, #000000, #00aa00);
-	background: linear-gradient(to right, #00FF00, #000000, #00aa00);
-	color: #00FF00;
+	background: -webkit-linear-gradient(right, #FF5733, #C70039, #900C3F);
+	background: -moz-linear-gradient(right, #FF5733, #C70039, #900C3F);
+	background: -o-linear-gradient(right, #FF5733, #C70039, #900C3F);
+	background: linear-gradient(to right, #FF5733, #C70039, #900C3F);
+color: #FF5733;
+
 }
 
 h1{
-	color: #00eeff;
-	text-shadow:0 0 2px aqua;
-	font-family: times new roman, arial;
+	color:black;
+	text-shadow:0 0 2px grey;
+	font-family: Verdana;
 }
 
 h2{
-	color: #000fff;
-	text-shadow:0 0 2px blue;
-	font-family: times new roman, arial;
+	color:black;
+	text-shadow:0 0 2px grey;
+	font-family: Verdana;
 }
 
 h3{
-	color: #ffbbbb;
-	text-shadow:0 0 2px blue;
-	font-family: times new roman, arial;
+	color:black;
+	text-shadow:0 0 2px grey;
+	font-family: Verdana;
 }
 
 p{
-	color: #00bbbb;
-	text-shadow:0 0 2px purple;
-	font-family: times new roman, arial;
+	color: #00008B;
+	text-shadow:0 0 1px blue;
+	font-family: Georgia;
 }
 
 a:visited{
-	color: aqua;
+	color: white;
 }
