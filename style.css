@@ -27,8 +27,8 @@ h3{ /* This changes the third heading style */
 }
 
 p{ /* This changes the paragraph style */
-	color: #00008B;
-	text-shadow:0 0 1px blue;
+	color: blue;
+	text-shadow:0 0 3px black;
 	font-family: Georgia;
 }
 
