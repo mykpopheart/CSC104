@@ -1,37 +1,25 @@
-body{
-	background: -webkit-linear-gradient(right, #FF5733, #C70039, #900C3F);
-	background: -moz-linear-gradient(right, #FF5733, #C70039, #900C3F);
-	background: -o-linear-gradient(right, #FF5733, #C70039, #900C3F);
-	background: linear-gradient(to right, #FF5733, #C70039, #900C3F);
-color: #FF5733; /* This changes the background color */
-
-
+<style>
+<!--background image-->
+body {
+    background-image: url('K-pop Background.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Style the link to look like a button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: absolute;  /* position the button absolutely */
+    bottom: 20px;       /* postion at the bottom */
+    right: 20px;        /* postion at the right. */
 }
 
-h1{ /* This changes the first heading style */
-	color:black;
-	text-shadow:0 0 2px grey;
-	font-family: Verdana;
-}
 
-h2{ /* This changes the second heading style */
-	color:black;
-	text-shadow:0 0 2px grey;
-	font-family: Verdana;
-}
 
-h3{ /* This changes the third heading style */
-	color:black;
-	text-shadow:0 0 2px grey;
-	font-family: Verdana;
-}
-
-p{ /* This changes the paragraph style */
-	color: blue;
-	text-shadow:0 0 3px black;
-	font-family: Georgia;
-}
-
-a:visited{ /* This changes the visited style */
-	color: white;
-}
