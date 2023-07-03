@@ -8,7 +8,7 @@ body {
 h1 {
     font-family: Fantasy, cursive; /*font for the first heading */
     color: red;
-    text-shadow: 0 0 2px #000, 0 0 2px #000; /*adds a double outline effect*/
+    text-shadow: 0 0 2px #000, 0 0 2px #000; /*adds a shadow effect*/
 }
 
 h2 {
