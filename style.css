@@ -8,7 +8,7 @@ body {
 h1 {
     font-family: Fantasy, cursive; /*font for the first heading */
     color: red;
-    text-shadow: 0 0 2px #000, 0 0 2px #000;
+    text-shadow: 0 0 2px #000, 0 0 2px #000; /*adds a double outline effect*/
 }
 
 h2 {
@@ -36,16 +36,14 @@ h2 {
 /* Change the button color when you hover over it */
 .button:hover {
     background-color: #0056b3;
-</style>
+}
 
-
-<style> /*changes the letters on the left side*/
-<style>
+ /*changes the letters on the left side*/
 .letter-links {
     font-family: "Brush Script MT", cursive;
 }
 
-.letter-links li a {
+.letter-links li a { /*styles the letter links to bold*/
     font-weight: bold;
     color: black;
     transition: color 0.3s;  /* Add a smooth transition effect for color change */
@@ -59,24 +57,24 @@ h2 {
     <li><a href="example.html">A</a></li>
     <li><a href="example.html">B</a></li>
     <li><a href="example.html">C</a></li>
-	<li><a href="example.html">D</a></li>
-	<li><a href="example.html">E</a></li>
-	<li><a href="example.html">F</a></li>
-	<li><a href="example.html">G</a></li>
-	<li><a href="example.html">H</a></li>
-	<li><a href="example.html">I</a></li>
-	<li><a href="example.html">J</a></li>
-	<li><a href="example.html">K</a></li>
-	<li><a href="example.html">L</a></li>
-	<li><a href="example.html">M</a></li>
-	<li><a href="example.html">N</a></li>
-	<li><a href="example.html">O</a></li>
-	<li><a href="example.html">P</a></li>
-	<li><a href="example.html">Q</a></li>
-	<li><a href="example.html">R</a></li>
-	<li><a href="example.html">S</a></li>
-	<li><a href="example.html">T</a></li>
-	<li><a href="example.html">U</a></li>
+    <li><a href="example.html">D</a></li>
+    <li><a href="example.html">E</a></li>
+    <li><a href="example.html">F</a></li>
+    <li><a href="example.html">G</a></li>
+    <li><a href="example.html">H</a></li>
+    <li><a href="example.html">I</a></li>
+    <li><a href="example.html">J</a></li>
+    <li><a href="example.html">K</a></li>
+    <li><a href="example.html">L</a></li>
+    <li><a href="example.html">M</a></li>
+    <li><a href="example.html">N</a></li>
+    <li><a href="example.html">O</a></li>
+    <li><a href="example.html">P</a></li>
+    <li><a href="example.html">Q</a></li>
+    <li><a href="example.html">R</a></li>
+    <li><a href="example.html">S</a></li>
+    <li><a href="example.html">T</a></li>
+    <li><a href="example.html">U</a></li
 	<li><a href="example.html">V</a></li>
 	<li><a href="example.html">W</a></li>
 	<li><a href="example.html">X</a></li>
