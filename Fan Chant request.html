@@ -2,11 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>K-Pop Fan Chants</title>
+  <title>Request a Fan Chant</title> <!--website url title-->
+    <style>	
+body {
+    background-image: url('K-pop Background.jpg');
+    background-repeat: repeat-x;
+     background-repeat: repeat;
+    background-size: 300px 100px;
+	
+	}	
+/* Image position */
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+	
+	}
+
+/* Resizes the image */
+.image-container img {
+    width: 200px; /* Adjust the width */
+    height: 120px; /* Maintain the aspect ratio */
+	</style>
+	
+   <!-- Button to go back to the home page -->
+<a href="E:\School\OnlineCSC104\W4 Final Project.HTML" class="button">HOME</a> 
 </head>
 <body>
-Fill out the form to request a fan chant for your favorite group or soloist!
 
+Fill out the form to request a fan chant for your favorite group or soloist!
+<div class="image-container">
+<img src="E:\School\OnlineCSC104\Korean Heart.jpg" alt="Korean Heart">
+ </div>
+
+  <!-- Form -->
+  <form>
+    <label for="group">Group/Soloist:</label>
+    <input type="text" id="group" name="group" required>
+
+    <label for="song">Song Title:</label>
+    <input type="text" id="song" name="song" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
   
 </body>
 </html>

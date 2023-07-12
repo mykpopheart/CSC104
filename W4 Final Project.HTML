@@ -9,8 +9,9 @@
 <style>
 body {
     background-image: url('K-pop Background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
+     background-repeat: repeat;
+    background-size: 300px 100px;
 }
 /* Style the link to look like a button */
 .button {
@@ -28,12 +29,28 @@ body {
     right: 20px;        /* postion at the right. */
 }
 
+
 /* Change the button color when you hover over it */
 .button:hover {
     background-color: #0056b3;
+}	
+/* Image position */
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+	
+	}
+
+/* Resizes the image */
+.image-container img {
+    width: 200px; /* Adjust the width */
+    height: 120px; /* Maintain the aspect ratio */
+}
 </style>
 </head>
 <body>
+
 <h1>Welcome to K-Pop Fan Chants!</h1> <!--main heading-->
 <h2>Your go-to source for all K-pop fan chants</h2> <!-- second heading -->
 
@@ -75,5 +92,10 @@ Thank you for visiting!!</p>
 	<li><a href="example.html">Z</a></li>
 	<li><a href="example.html">number</a></li>	
     </ul>
+	
+	<!-- Image -->
+<div class="image-container">
+<img src="E:\School\OnlineCSC104\Kpop Fan Chants Image main page.jpg" alt="Kpop Fan Chant Image">
+
 </body>
 </html>

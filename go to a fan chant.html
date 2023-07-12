@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>K-Pop Fan Chants</title>
+  <title>Fan Chants</title>
   <!--background image-->
 <style>
+
 body {
     background-image: url('K-pop Background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
+     background-repeat: repeat;
+    background-size: 300px 100px;
 }
 /* Style the link to look like a button */
 .button {
@@ -25,19 +27,49 @@ body {
     bottom: 20px;       /* postion at the bottom */
     right: 20px;        /* postion at the right. */
 }
+ 
+   
+ .home-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 /* Change the button color when you hover over it */
 .button:hover {
     background-color: #0056b3;
+	
+	}	
+/* Image position */
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+	
+	}
+
+/* Resizes the image */
+.image-container img {
+    width: 200px; /* Adjust the width */
+    height: 120px; /* Maintain the aspect ratio */
+	
+}
+
+
 </style>
+
 </head>
+
 <body>
 <h1>K-Pop Fan Chants!</h1> <!--main heading-->
-<h2>Your go-to source for all K-pop fan chants</h2> <!-- second heading -->
+<h2>Your go-to source for K-pop fan chants</h2> <!-- second heading -->
 
 
 <!-- The link button to navigate to the request form -->
-<a href="E:\School\OnlineCSC104\Fan Chant request.html" class="button">Request for Fan Chant</a>
+<a href="E:\School\OnlineCSC104\Fan Chant request.html" class="button">Request For A Fan Chant</a>
+
+
+
 </head>
 <body>
 <nav>
@@ -50,6 +82,13 @@ body {
 <li><a href="example.html">astro</li>
 </ul>
 </nav>
-  
+<div class="image-container">
+<img src="E:\School\OnlineCSC104\I love kpop image.jpg" alt="I love Kpop Image">
+</div>
+
+<!-- Button to go back to the home page -->
+ <div class="home-button"
+<a href="E:\School\OnlineCSC104\W4 Final Project.HTML" class="button">HOME</a>   
+</div>
 </body>
 </html>
